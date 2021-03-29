@@ -1,0 +1,248 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>HOSPITAL MANAGEMENT SYSTEM</title>
+	<meta charset="UTF-8">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+	<link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAvVBMVEX////d3d0AAABUw++3t7fYLyNERETs7Ozk5OTMzMy9vb1oaGhWVlbi4uJWyfbv7+8sZ34QJS0cHBxBQUFaWloXFxd7e3veMCRPt+AtLS3T09NxGRKVlZVKSkqioqI7iahBl7qcIhltbW0hTV9aEw64KB7FxcWurq4pKSmLi4sxMTE5OTl9fX2fn59Go8gLCwtsFxGDHBUnXHEJFRszd5JMsNgaPUstCgeyJx3HKyAQAwITLDUBBAUeRVUjUWROufM0AAAIXklEQVR4nO2da3ebOBCGA8k6Altu6tvGru12Seu7mzZN2u022f//s9YJoh5dBpAhCHvn/ZJzyCDNI8BIo5E4O6tC3qDvq+oMvErqrkRjDS/W2LVjZWmJAPr+0rVr5WiEAvr+yLVzpaiXQth07VwpSgH0fdfOlaE3McqPj7J+xIffuHavBAnCd3/KeneChH9AEeExiQiPX0R4/CLC49f/ndC1dweKzcK95qmEc2A5Y64dz6nZ0DSIQAhlLWaunc8jZESfi9D3B67dz9bU7HleQgexmzd2YojjuQl9z7LGQnTTFuaGvT4phH+XV3RrfiDftjwffP+rDLhD/Fpm8dtDACdFavxL0U8VcIf4UzUqUmHLHrDYDaqELHS+F0ZFhWq0RtwUqs43EmWpWJUbO0D0J7G+hL5dj2iQnNbv2KkEwlz13PYT3Sau2nUWksoak4aVJiUQ5qlyshquEg2TeS0bQC8+5dYOr0LCxnoIJC6jzWxdEJ8yrC9hFxKKZyOwIJzFp6xOl1BMiHUsn0JHhCvxINpM1Ylxub+2RXTxHK4W4kSrTvhanLRYd+1UAmGuehZ7JW+org3gmQg9HKwihIfKcoTRyS6xZoQdO8DUyfd6ElqnBISFqlOHDabBhWZTqMbQFrDgVfxH0RcD4RfVqEiFhyV14Hkw9vpHAywEpOjwvBzRt1lvBjm1aWJOKGEMPIjRTKtsEzWBVvEZRYKs4s0fXbLcwn6E88baOunFj2CMXGTqFAm3XYpmZV5e8VlBwhlPLT+42CsUkZbLSgl3iLdGz/MR3obpgHUg9DgfNwy3ag7CTmPMMwBrQbhjlMyDVMIZNGVZfHUhVHxKJQyyoY6d0LY0IiRCIiRCIiTC4yY0ZkGfAqGIFXz8JOvjyREiGp0Aoacv6tqrb1tYHQlZ2oT5xrbkOhJ6XgqhdVm1JEQDG76fNaI/EkKPB2sj39p2cFhbwt2zGC4jVcvwkFLrSuhxrsUFM0Myx0VYmoiQCInQvYiQCA8j5LJyWR1algtC5oXzKVA4MlhzNrqARvMZN5XJRqFkFXqqVfWE3PudivpbvUC1Z2FDs1rqfIG+OcHAk69j5YTIbOFcPoEZMwJWyvieGdOUbuUp08oJA5NTz4jQLYbsbdKRGwvLw5IaompCZh4W+fLQFh0fyuViVmtoVTEhv8C88pf7i8jQ/Ax4eTie23IBboiKCZn+K5Oouz8lJe9/C9qhi1oNQPVVE4oq7t8DCbf2p4hn9Rc0utJ8F+3wCK3u42Mth4QiZacNdRMf218d8RheQaNrrWAeH7mRyoqPrdwTngOlEAKrFEJYGBESIRESIRESIRESIfXayiAUC7nefwASg3695w2NRJ860nret9BK9OInDgkjH9NauzomjcHoCR1Mw3aofASMLwBbgquDb34Jck1Spvvn7kbAvx9EXbAd8kUx0KwUl1EM3PktPAMNBUgxJobtwyEF2yqPtZkjgPAefbGKTEZKnBCJOSqRSQcR4UDfQGOtzdCzub4+IfLUmD0L9V+bVuA4IvzsVzAdQ21nhkUFnIdbyWpujv3PZKupFj2v8cwMz2VVy5mZakWEREiE7kWEREiE7kWEr0HImTeSZFzryrhsZF4Ry1mWlQNCNle3H1yPNee5t1G2bX3sGVKE+VgdXEyUrA4XhKbdBxfKkIcZtxEZKA3Bg4XBquWYkJuc8pXFPlhCQ0suFslcWTjNp0HTLIa5IjBSKIAZtx9Wa6+aEF9JAbMs8IwNeKHx7VLhmv2q46V4BBDcgSnZJlPQDvh+qXDpkKNsk5urve6EW/tTxE36CIyuvsfH9GwT/w5Y3WitVYt5i6f42IHzFk+GeYu1e8LTn3siQiIkQiIkQiIkwpMmFAOedipheDCh6LUNHRKK7PNr2O6/kGv4LzT6HB+LNMJf0Eq0Q9chIb7OoA9OQY2kNQv45hJNd4Qc+9CvnAuEZ8qAHQdScnNgZKvyOE0e3zn2cR1/BVzn+Ka3sMLKs00w5+EiEHz4LiVjoMGOKbSqPtvEnCHSU04wJxZNlZwU82dR5MyV6uOlzHQVl5p9pBst9JwUU3MpzeAgIsz5fNCaAEVbbeHn8+LQcRMa9TYXhrA+87YRtGoN5mo6hpOZGXXLC3MiSUlWNPdEhEToXkRIhESISt8GqriMb0xHhMybbpqtctXczA19I0d9mhE+BVpMg1Et+jRIMns5UlMxnGSboOPbUqQMLVzk6uNT+eVIWbLgYHyIZVCUpaHr/Wle9x591tRpPs0+8jC0/HpZtpKbo+U2ipGsvLP+BF2Oj9QlQcha7DHULx9whyhixIFLwiTIuXgFwEZD5MyFTqOJ4l3ReRVCsRpM+lBL9W8L8ay8CqEoW34sKv8tFXdSv1v2kzjpisdw6Pa3dJ+71y9bScEbt4QZe8qXIXnfOge9NnyCrRyNnUf1U2ZJy5BatZPxYfSKgFENxofPI8S0rx8UUV8dHTpbB+yNzVN/xdQaa6u93cXamPhJvbtO1fnbF6u35+lmIpHatNrbXTRR9MClnBldbUGYYSW2HDR+oIUIiZAIiZAIiZAIiZAIiZAIiZAIj5nwecWrQigOnQrhnf/tvi0Rtu+/+XenQ/gCdtcGhO2XSMXbEyFsf4j/eQ0IxWqYD0b74yMUG85+BoRiVdA9ERIhEVZEKLZ0fgCED/Gh96dBKH44v0tvi3jrj2uT+RESth92ZE/ncp/maff3wWx+fIQ7p3fvQoVw9048pV5b4vvp9ryJkAiJkAiJkAiJkAiJkAiJkAh3ii6z1nuOEsJ0JYTpEoQjY0XhXrNeaYQ1FxESYf1VhPDMtfN59FgE8Azfnqo+CgsRno0GvbzKt9pnnc8sd62DUQbBf15tPfpBO8OWAAAAAElFTkSuQmCC"type="image/x-icon">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&family=Fraunces&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<ul>
+		<li><a href="#">USER PORTAL</a><li>
+		<li><a href="#foot"> CONTACT</a><li>
+		<li><a href="#col"> ABOUT US</a></li>
+		<li><a href="#symptom-pre"> SYMPTOMS</a></li>
+		<li><a href="#"> HOME </a></li>
+		<h2><span>&#127973;</span>VIRTUAL  HEALTH  ASSISTANT</h2>
+	</ul>
+	</header>
+	<div>
+    	<div class="container">
+
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                  <li data-target="#myCarousel" data-slide-to="4"></li>
+
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                  <div class="item active">
+                    <img src="{{url_for('static', filename='images/Logo.jpeg')}}" alt="Los Angeles" style="width:1300px;
+		height:600px;
+		padding:100px;";>
+
+                  </div>
+
+                  <div class="item">
+                    <img src="{{url_for('static', filename='images/2.jpeg')}}" alt="Chicago" style="width:1300px;
+		height:600px;
+		padding:100px;";>
+
+                  </div>
+
+                  <div class="item">
+                    <img src="{{url_for('static', filename='images/3.jpeg')}}" alt="New York" style="width:1300px;
+		height:600px;
+		padding:100px;";>
+
+                  </div>
+                  <div class="item">
+                    <img src="{{url_for('static', filename='images/4.jpeg')}}" alt="New York" style="width:1300px;
+		height:600px;
+		padding:100px;">
+
+                  </div>
+                  <div class="item">
+                    <img src="{{url_for('static', filename='images/Sethes1.jpeg')}}" alt="New York" style="width:1300px;
+		height:600px;
+		padding:100px;">
+
+                  </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+	</div>
+	
+	<section class="col" id="col">
+		<h1>ABOUT US</h1>
+		<i style="font-size: 18px;text-align:center;">Health is Wealth!</i>
+		<p>Virtual health assistant is a trained multitask platform to provide medictaion under one deck. This virtual health assistant offers you a oblique treatment at your own comfort zone, the symptom predictor provides accurate penicular results about the health and maintain your progress in your own life style,VHA are interfaces infused with the knowledge of a specific domain that supplements the need for humans in wellness,healthcare and disease management. Inorder for digital health solution to become an inteegral part of health care delivery, this web service is basically destination from where the user or patient can be able to see the disease that are affected by by there symptoms as input.VHA complements telehealth, telecare,perfectly through the use of the computers, medium software, communication tools, and other modern technology Medical data is very sensitive and a single tiny mistake can have a costly or even dangerous consequences.a virtual assistant in health care can provide a massive improvement in the overall experience of your patients.</p>
+		<div class="image_parent">
+		<img src="{{url_for('static',filename='img/rob.jpeg')}}" width="250px" height="255px"  alt="new1"><br>
+		<img src="{{url_for('static',filename='img/5(1).jpeg')}}" width="250px" height="255px" alt="new2">
+		<img src="{{url_for('static',filename='img/6(1).jpg')}}" height="255px"  alt="new3"></br>
+	</div>
+<div class="quote_parent">
+		<div class="column" id="q1"><i>Robotic life is better....</br>No attachment</br>No heart attack</i></div>
+		<div class="column" id="q2"><i>Home is where the heart is, </br>but today the phone is where the heart is!!!!!</br></i></div>
+		<div class="column" id="q3"><i>Every human being is the author of his <br>own health or disease</br></i></div>
+	</div>
+		</section>
+		<h1 style="float:left;width:80%;margin-left:10%;text-align:center;font-family:Roboto">SYMPTOM PREDICTOR</h1>
+		<form action="{{url_for('predict')}}" method="POST" id="symptom-pre">
+			<div class="symp-head">
+				<span>SYMPTOM 1</span>
+				<span>SYMPTOM 2</span>
+				<span>SYMPTOM 3</span>
+				<span>SYMPTOM 4</span>
+			</div>
+
+<!--		</div>-->
+		<datalist id="symptoms">
+			<option value="None">
+			<option value="abdominal_pain">
+			<option value="acidity">
+			<option value="altered_sensorium">
+			<option value="anxiety">
+			<option value="back_pain">
+			<option value="blackheads">
+			<option value="bladder_discomfort">
+			<option value="blister">
+			<option value="bloody_stool">
+			<option value="blurred_and_distorted_vision">
+			<option value="breathlessness">
+			<option value="bruising">
+			<option value="burning_micturition">
+			<option value="chest_pain">
+			<option value="chills">
+			<option value="cold_hands_and_feets">
+			<option value="constipation">
+			<option value="continuous_feel_of_urine">
+			<option value="continuous_sneezing">
+			<option value="cough">
+			<option value="cramps">
+			<option value="dark_urine">
+			<option value="dehydration">
+			<option value="diarrhoea">
+			<option value="dischromic _patches">
+			<option value="distention_of_abdomen">
+			<option value="dizziness">
+			<option value="excessive_hunger">
+			<option value="extra_marital_contacts">
+			<option value="family_history">
+			<option value="fatigue">
+			<option value="foul_smell_of urine">
+			<option value="headache">
+			<option value="high_fever">
+			<option value="hip_joint_pain">
+			<option value="indigestion">
+			<option value="irregular_sugar_level">
+			<option value="irritation_in_anus">
+			<option value="itching">
+			<option value="joint_pain">
+			<option value="knee_pain">
+			<option value="lack_of_concentration">
+			<option value="lethargy">
+			<option value="loss_of_appetite">
+			<option value="loss_of_balance">
+			<option value="mood_swings">
+			<option value="movement_stiffness">
+			<option value="muscle_wasting">
+			<option value="muscle_weakness">
+			<option value="nausea">
+			<option value="neck_pain">
+			<option value="nodal_skin_eruptions">
+			<option value="obesity">
+			<option value="pain_during_bowel_movements">
+			<option value="pain_in_anal_region">
+			<option value="painful_walking">
+			<option value="passage_of_gases">
+			<option value="patches_in_throat">
+			<option value="pus_filled_pimples">
+			<option value="red_sore_around_nose">
+			<option value="restlessness">
+			<option value="scurring">
+			<option value="shivering">
+			<option value="silver_like_dusting">
+			<option value="skin_peeling">
+			<option value="skin_rash">
+			<option value="small_dents_in_nails">
+			<option value="spinning_movements">
+			<option value="spotting_ urination">
+			<option value="stiff_neck">
+			<option value="stomach_pain">
+			<option value="sunken_eyes">
+			<option value="sweating">
+			<option value="swelling_joints">
+			<option value="swelling_of_stomach">
+			<option value="swollen_legs">
+			<option value="ulcers_on_tongue">
+			<option value="vomiting">
+			<option value="watering_from_eyes">
+			<option value="weakness_in_limbs">
+			<option value="weakness_of_one_body_side">
+			<option value="weight_gain">
+			<option value="weight_loss">
+			<option value="yellow_crust_ooze">
+			<option value="yellowing_of_eyes">
+			<option value="yellowish_skin">
+		</datalist>
+
+
+		<div class="drop-down-parent">
+    		<div class="drop-down-1" id="dd0">
+            		<input list="symptoms" name="symptom1" placeholder="Enter Symptom">
+    		</div>
+    		<div class="drop-down-1" id="dd1">
+            		<input list="symptoms" name="symptom2" placeholder="Enter Symptom">
+
+    		</div>
+    		<div class="drop-down-1" id="dd2">
+            		<input list="symptoms" name="symptom3" placeholder="Enter Symptom">
+    		</div>
+    		<div class="drop-down-1" id="dd3">
+            		<input list="symptoms" name="symptom4" placeholder="Enter Symptom">
+    		</div>
+				<button class="res_bt" type="submit">RESULT</button>
+    	</div>
+
+    	<h1 style="width: 100%;text-align:center;font-family:Roboto;padding-top: 50px;">RESULT</h1>
+    	<div class="resultbox" style="font-family:Roboto;text-align:center; font-size:25px;">
+		{{ prediction_text }}
+    	</div>
+	</form>
+	<footer id="foot">
+		<div class="foot">
+			<h2 style="font-family:Roboto;font-family:Gabriola;text-align:center;margin-left:50px;font-size:25px;">Contact US</h2>
+			<h2 style="margin-top:20px;color:white;margin-left:376px;">VHA</h2></br></br>
+				<i class="fa fa-map-marker" aria-hidden="true" style="font-size:30px;margin-left:-494px;margin-top:28px;"><p style="margin-left:35px;margin-bottom:-2px;margin-top:-38px;font-size:20px;">xyz,peterstreet,<br>chennai-8328238</p></i></br>
+				<i class="fa fa-phone" aria-hidden="true" style="font-size:30px;margin-left: 65px;margin-top:15px;"><p style="margin-left:30px;margin-top:-29px;font-size:20px;">+01 12345678</p></i></br>
+				<i class="fa fa-envelope" aria-hidden="true" style="font-size:30px;margin-left:64px;"><p style="margin-top:-30px;margin-left:41px;font-size:20px;">abc@gmail.com</p></i></br>
+				<i class="fa fa-facebook-official" aria-hidden="true" style="position:absolute;font-size:40px;margin-left:466px;margin-top:-135px;"></i>
+				<i class="fa fa-whatsapp" aria-hidden="true" style="position:absolute;font-size:40px;margin-left:592px;margin-top:-138px;"></i>
+				<i class="fa fa-instagram" aria-hidden="true" style="position:absolute;font-size:40px;margin-left:528px;margin-top:-136px;"></i>
+		</div>
+	</footer>
+</body>
+</html>

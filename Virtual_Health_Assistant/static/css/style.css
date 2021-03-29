@@ -1,0 +1,161 @@
+body
+	{
+		overflow-y:scroll;
+		overflow-x:hidden;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+    }
+	header
+	{
+		background-color:dodgerblue;
+		box-shadow: 2px 5px solid grey;
+    	white-space: nowrap;
+	}
+	h2
+	{
+		float: left;
+		font-size: 22px;
+		padding-bottom: 1px;
+		font-family: Kaushan Script;
+		color:white;
+	}
+	ul
+	{
+		list-style-type: none;
+		margin:0;
+		padding:6px;
+		overflow:hidden;
+	}
+	 ul li
+	{
+		float:right;
+		font-size:18px;
+	}
+	 ul li a
+	{
+		display:block;
+		color:white;
+		padding: 19px 24px;
+		text-decoration:none;
+		font-family: Roboto;
+	}
+	li a:hover
+	{
+		background-color: grey;
+	}
+	.new
+	{
+		background-color:dodgerblue;
+		padding:50px;
+		text-align: center;
+		text-decoration-color: white;
+	}
+	.new h1
+	{
+		font-size:50px;
+	}
+
+
+	.col
+	{
+		background-color: dodgerblue;
+		color: white;
+		text-align: center;
+		padding-top: 10px;
+		width: 100%;
+	}
+	.col h1
+	{
+		font-size: 60px;
+		font-family: sans-serif;
+		padding: 0px;
+	}
+	.col p
+	{
+		text-align: justify;
+		font-family: Verdana, sans-serif;
+		font-size: 25px;
+		padding: 0 40px;
+	}
+	.col i
+	{
+		text-align: center;
+	}
+
+	.image_parent {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		padding-top: 40px;
+	}
+
+	.quote_parent {
+		display: flex;
+		padding-bottom: 50px;
+		justify-content: space-around;
+		padding-top: 20px;
+	}
+
+	.symp-head {
+		width: 100%;
+		display: flex;
+		align-items:  center;
+		justify-content: space-around;
+		flex-direction: row;
+		padding-top: 100px;
+	}
+
+	.drop-down-parent
+	{
+		width: 100%;
+		height: 200px;
+		padding-bottom: 150px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.drop-down-parent input
+	{
+		width: 250px;
+		height: 30px;
+		box-shadow: 0 5px 25px rgba(0,0,0,.5);
+		-webkit-appearance:button;
+		border:0px;
+	}
+
+
+.res_bt {
+	position: absolute;
+	background: dodgerblue;
+	color: #FFF;
+	padding: 10px;
+	margin-top: 300px;
+}
+
+	.resultbox
+	{
+		width:80%;
+		height: 150px;
+		border:2px solid dodgerblue;
+		border-radius: 30px;
+		margin-left: 200px;
+		padding-top: 100px;
+	}
+	.kums
+	{
+		height:100px;
+		width: 100%;
+		float: left;
+	}
+	.foot
+	{
+		height: 210px;
+		background-color: dodgerblue;
+		margin-top: 150px;
+	}
+	.suggestion
+	{
+		width:50px;
+		height:50px;
+	}
